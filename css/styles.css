@@ -1,4 +1,135 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    background-color:#B4282C;
+    text-align: center;
+    /* width: 100vw; */
+}
+
+/* nav */
+nav {
+    position: relative;
+    background-color: #FFD400;
+}
+
+nav .container1 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul a {
+    color: black;
+}
+
+nav ul li, a {
+    color: #000;
+    font-size: 14px;
+}
+
+nav .nav__logo {
+    width: 230px;
+    background-color: #FFD400;
+}
+
+nav ul li button{
+    cursor: pointer;
+    background-color: #FFBC06;
+    border: none;
+    border-radius: 5px;
+}
+
+nav ul li:nth-child(2) button{
+    padding: 5px 25px 5px 10px;
+    position: relative;
+}
+nav ul li:nth-child(2) p{
+    font-size: 11px;
+    margin-bottom: 3px;
+}
+
+nav ul li:nth-child(2) span{
+    font-weight: bold;
+    float: left;
+    font-size: 11px;
+}
+
+nav ul li:nth-child(2) i{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+
+nav ul li:nth-child(3) {
+    position: relative;
+}
+
+nav ul li:nth-child(3) input{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+
+nav ul li:nth-child(3) i{
+    position: absolute;
+    font-size: 20px;
+    right: 12px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+nav ul li:nth-child(4) button{
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
+}
+
+nav ul li:nth-child(5) button{
+    position: relative;
+    font-size: 12px;
+    padding: 5px 15px 5px 40px;
+}
+nav ul li:nth-child(5) i{
+    font-size: 25px;
+    position: absolute;
+    left: 8px;
+    top: 11px
+}
+nav ul li:nth-child(5) span{
+    line-height: 35px;
+    font-weight: bold;
+}
+nav ul li:nth-child(6) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul li:nth-child(6) a{
+    font-size: 14px;
+    text-align: center;
+
+}
+
+
+
