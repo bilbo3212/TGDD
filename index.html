@@ -9,69 +9,613 @@
 </head>
 <body>
 
-    <header>
-        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/11/banner/BIG-1200-44-1200x44.png" alt="">
-    </header>
+    <div id="wrapper">
+        <header>
+            <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/11/banner/BIG-1200-44-1200x44.png" alt="">
+        </header>
 
-    <nav>
-        <div class="container1">
-            <ul>
-                <li>
-                    <a href="">
-                        <img class="nav__logo" src="image/Logo_TGDD_2023.png" alt="">
-                    </a>
-                </li>
+        <nav>
+            <div class="container1">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img class="nav__logo" src="image/Logo_TGDD_2023.png" alt="">
+                        </a>
+                    </li>
 
-                <li>
-                    <a href="">
-                        <button>
-                            <p>Xem giá tồn kho tại:</p>
-                            <span>Đà Nẵng</span>
-                            <i class="fa-solid fa-sort-down"></i>
-                        </button>
-                       
-                    </a>
-                </li>
+                    <li id="address-form">
+                        <a href="#">
+                            <button>
+                                <p>Xem giá tồn kho tại:</p>
+                                <span class="address-name">Đà Nẵng</span>
+                                <i class="fa-solid fa-sort-down"></i>
+                            </button>
+                        
+                        </a>
+                    </li>
 
-                <li>
-                    <input type="text" placeholder="Bạn tìm gì...">
-                    <i class="fas fa-search"></i>
-                </li>
+                    <li>
+                        <input type="text" placeholder="Bạn tìm gì...">
+                        <i class="fas fa-search"></i>
+                    </li>
 
-                <li>
-                    <a href="">
-                        <button>
-                            <span>Tài khoản &</span>
-                            <br>
-                            <span> đơn hàng</span>
-                        </button>
-                    </a>
-                </li>
+                    <li>
+                        <a href="">
+                            <button>
+                                <span>Tài khoản &</span>
+                                <br>
+                                <span> đơn hàng</span>
+                            </button>
+                        </a>
+                    </li>
 
-                <li>
-                    <a href="">
-                        <button>
-                            <span>Giỏ hàng</span>
-                            <i class="fas fa-shopping-cart"></i>
-                        </button>
-                    </a>
-                </li>
+                    <li>
+                        <a href="">
+                            <button>
+                                <span>Giỏ hàng</span>
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </a>
+                    </li>
 
-                <li>
-                    <a href=""><span>24h</span> <br> <span>Công nghệ</span></a>
-                </li>
+                    <li>
+                        <a href=""><span>24h</span> <br> <span>Công nghệ</span></a>
+                    </li>
 
-                <li>
-                    <a href="">Hỏi đáp</a>
-                </li>
+                    <li>
+                        <a href="">Hỏi đáp</a>
+                    </li>
 
-                <li>
-                    <a href="">Game App</a>
-                </li>
+                    <li>
+                        <a href="">Game App</a>
+                    </li>
 
-            </ul>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="menu-bar">
+            <div class="container1">
+                <div class="menu-bar__content">
+                    <ul>
+                        <!-- Phone -->
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Điện Thoại
+                            </a>
+                        </li>
+
+                        <!-- Laptop -->
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-laptop"></i>
+                                Laptop
+                            </a>
+                        </li>
+
+                        <!-- Tablet -->
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-tablet-screen-button"></i>
+                                Tablet
+                            </a>
+                        </li>
+
+                        <!-- Phụ kiện -->
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-headphones-simple"></i>
+                                Phụ kiện
+                                <i class="fa-solid fa-sort-down drop-down"></i>
+                                <div class="sub-menu">
+                                    <ul>
+                                        <li><a href="#"></a>Phụ kiện A</li>
+                                        <li><a href="#"></a>Phụ kiện A</li>
+                                        <li><a href="#"></a>Phụ kiện A</li>
+                                        <li><a href="#"></a>Phụ kiện A</li>
+                                        <li><a href="#"></a>Phụ kiện A</li>
+                                        <li><a href="#"></a>Phụ kiện A</li>
+                                        <li><a href="#"></a>Phụ kiện A</li>
+                                        <li><a href="#"></a>Phụ kiện A</li>
+                                        <li><a href="#"></a>Phụ kiện A</li>
+                                        <li><a href="#"></a>Phụ kiện A</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- SmartWatch -->
+                        <li>
+                            <a href="">
+                                <i class="fa-regular fa-clock"></i>
+                                Smartwatch
+                            </a>
+                        </li>
+
+                        <!-- Máy cũ -->
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-mobile-retro"></i>
+                                Máy cũ
+                            </a>
+                        </li>
+
+                        <!-- PC -->
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-desktop"></i>
+                                PC máy in
+                            </a>
+                        </li>
+
+                        <!-- sim -->
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-sim-card"></i>
+                                Sim thẻ cào
+                                <i class="fa-solid fa-sort-down drop-down"></i>
+                                <div class="sub-menu">
+                                    <ul>
+                                        <li><a href="">Mobi</a></li>
+                                        <li><a href="">Vietel</a></li>
+                                        <li><a href="">VinaPhone</a></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Dịch vụ -->
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-bell-concierge"></i>
+                                Dịch vụ
+                            </a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- slider -->
+        <section class="slider">
+            <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/11/banner/des-1920x450.jpg" alt="">
+        </section>
+
+        <!-- Main -->
+
+        <section class="main">
+            <div class="main__container">
+                <div class="main__slide--container">
+                    <div class="main__slide">
+                        <div class="slide__item">
+                            <div class="image__item">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/12/banner/720-220--1--720x220-5.png" alt="">
+                            </div>
+                            <div class="image__item">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/12/banner/XIAOMI-LEHOI-720-220-720x220-1.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="slide__item">
+                            <div class="image__item">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/11/banner/C53-HC-720-220-720x220-4.png" alt="">
+                            </div>
+                            <div class="image__item">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/11/banner/Le-hoi-OPPO-720-220-720x220-2.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="slide__item">
+                            <div class="image__item">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/10/banner/LAP-GAMING-720-220-720x220.png" alt="">
+                            </div>
+                            <div class="image__item">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/12/banner/DH-Xiaomi-720-220-720x220.png" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <i class="fa-solid fa-chevron-right btn__next "></i>
+                    <i class="fa-solid fa-chevron-left btn__prev"></i>
+                </div>
+
+                <div class="main__cards">
+                    <ul>
+                        <li class="card">
+                            <a href="">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/120x120-240x240-5.png" alt="">
+                                <span>Smartphone <br> Đặc Quyền</span>
+                            </a>
+                        </li>
+
+                        <li class="card">
+                            <a href="">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Frame-3-120x120-1.png" alt="">
+                                <span>Chỉ từ 590k <br> Bao lắp đặt</span>
+                            </a>
+                        </li>
+
+                        <li class="card">
+                            <a href="">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/100x100-100x100-56.png" alt="">
+                                <span>Giảm đến 50%</span>
+                            </a>
+                        </li>
+
+                        <li class="card">
+                            <a href="">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Icon-Laptop-120x120.png" alt="">
+                                <span>Laptop corei5 <br> từ 7.99 triệu</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="main__banner">
+                    <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/12/banner/1200x100-1200x100-2.jpg" alt="">
+                </div>
+
+                <div class="main__content">
+                    <div class="content__flashsale">
+                        <div class="flashsale__header">
+                            <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/12/campaign/DMX---Banner-Flash-sale-1200x120.png" alt="">
+                        </div>
+
+                        <div class="flashsale__body">
+                            <div class="list-product">
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content__noel">
+                        <div class="noel__header">
+                            <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/12/banner/Deal-ngon-tgdd-1200x120-2.png" alt="">
+                        </div>
+
+                        <div class="noel__body noel-color">
+                            <div class="list-product">
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="product-card-img">
+                                    <img class="product-image" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/306104/asus-vivobook-14-a1405va-i3-ly097w-thumb-lap-600x600.jpg" alt="">
+                                    </div>
+                                    <h3 class="product-name">Asus Vivobook 14 A1405VA i3 1315U (LY097W)</h3>
+                                    <strong class="product-price">20.990.000₫</strong>
+                                    <span class="price-sale">15.990.000₫</span>
+                                    <span class="line-coutdown">
+                                        Còn 20/20 sản phẩm
+                                    </span>
+                                 
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+    <div class="modal hide">
+        <div class="address__modal">
+            <div class="header__modal">
+                <p>Quý khách vui lòng cho biết Địa Chỉ Nhận Hàng để biết chính xác thời gian giao hàng</p>
+                <div class="header__searchbox">
+                    <i class="fas fa-search icon-search"></i>
+                    <input type="text">
+                </div>
+                <button class="btn-close-modal">
+                    Đóng
+                    <i class="fa-regular fa-circle-xmark"></i>
+                </button>
+            </div>
+            <div class="content__modal">
+                <select name="" id="address-1">
+                    <option value="">--Chọn địa điểm</option>
+                    <option value="Đồng Nai">Đồng Nai</option>
+                </select>
+                <select name="" id="address-2">
+                    <option value="">--Chọn Quận\Huyện</option>
+                    <option value="">Biên Hòa</option>
+                </select>
+                <select name="" id="address-3">
+                    <option value="">--Chọn Phường\Xã</option>
+                    <option value="">Tân Biên</option>
+                </select>
+                <input class="btn-address" type="text">
+                <div class="modal-save">
+                    <button class="btn-save-modal">Xác nhận</button>
+                </div>
+            </div>
         </div>
-    </nav>
+    </div>
     
     <script src="javascript/main.js"></script>
 </body>
